@@ -1,0 +1,12 @@
+Drop table EmpSpring
+
+create table EmpSpring
+(
+empNo Number(5),
+ename varchar2(10),
+sal Number(10,2)
+);
+
+insert into  EmpSpring values(101,'Jay',30000);
+insert into  EmpSpring values(102,'Vijay',40000);
+insert into  EmpSpring values(103,'Sanjay',50000);
